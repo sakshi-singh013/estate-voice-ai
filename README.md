@@ -12,7 +12,7 @@
 
 ## 🌟 Key Technical Features
 
-* ⚡ **Low-Latency Voice Orchestration (\(t < 400\text{ ms}\))**: Real-time turn-by-turn conversational flow with Web Audio streaming spectrum visualizer and Web Speech API synthesis.
+* ⚡ **Low-Latency Voice Orchestration**: Real-time turn-by-turn conversational flow with Web Audio streaming spectrum visualizer and Web Speech API synthesis.
 * 🧠 **Document RAG Retrieval Store**: Vector search over "Greenfield Heights Luxury Residences" brochures, RERA registration, floor plan specs, pricing matrices, and amenities.
 * 🛠️ **Dynamic Function Calling (Tool Use)**:
   * `book_site_visit()`: Checks chauffeur availability and confirms guided site visits directly into the calendar store.
@@ -29,21 +29,21 @@
 
 ```mermaid
 flowchart TD
-    Caller[Prospective Buyer] <-->|Web Speech / WebRTC Audio| FE[React + Vite Frontend Dashboard]
-    FE <-->|WebSocket / REST API| BE[FastAPI Backend Engine]
+    Caller["Prospective Buyer"] <-->|Web Speech / WebRTC Audio| FE["React + Vite Frontend Dashboard"]
+    FE <-->|WebSocket / REST API| BE["FastAPI Backend Engine"]
     
-    subgraph Agent Core ("Aria - Voice Sales Specialist")
-        BE <-->|Keyword Relevance Vector Search| RAG[RAG Document Store / property_data.json]
-        BE -->|Intent Router| Tools[Function Calling Dispatcher]
+    subgraph AgentCore ["Agent Core: Aria Voice Specialist"]
+        BE <-->|Keyword Relevance Vector Search| RAG["RAG Document Store"]
+        BE -->|Intent Router| Tools["Function Calling Dispatcher"]
     end
     
-    subgraph Agent Tools
-        Tools -->|Tool 1| Cal[Site-Visit Calendar Scheduler]
-        Tools -->|Tool 2| EMI[Mortgage & EMI Calculator]
-        Tools -->|Tool 3| BANT[BANT Lead Scoring Matrix]
+    subgraph AgentTools ["Agent Tools"]
+        Tools -->|Tool 1| Cal["Site-Visit Calendar Scheduler"]
+        Tools -->|Tool 2| EMI["Mortgage EMI Calculator"]
+        Tools -->|Tool 3| BANT["BANT Lead Scoring Matrix"]
     end
     
-    Tools -->|Real-time Sync| DB[(In-Memory Lead & Booking DB)]
+    Tools -->|Real-time Sync| DB[("In-Memory Lead & Booking DB")]
     DB -->|Telemetry Broadcast| FE
 ```
 
@@ -57,7 +57,7 @@ flowchart TD
 
 ### 1. Clone & Setup Backend
 ```bash
-git clone https://github.com/yourusername/estate-voice-ai.git
+git clone https://github.com/sakshi-singh013/estate-voice-ai.git
 cd estate-voice-ai/backend
 
 # Install Python dependencies
@@ -77,7 +77,7 @@ npm install
 # Launch Vite development server (Port 3000)
 npm run dev
 ```
-Open `http://localhost:3000` in your browser and click **"Start Voice Session"**!
+Open `http://localhost:3000` in your browser and click **"Start Voice Call"**!
 
 ---
 
