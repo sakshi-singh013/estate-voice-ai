@@ -1,0 +1,79 @@
+{
+  "project_name": "Greenfield Heights Luxury Residences",
+  "developer": "Greenfield Infrastructure & Realty Ltd.",
+  "location": "Outer Ring Road, Silicon Corridor, Bengaluru",
+  "rera_number": "PRM/KA/RERA/1251/310/PR/240921/006899",
+  "possession_date": "December 2026",
+  "total_land_area": "14.5 Acres (80% Open Green Space)",
+  "total_towers": 5,
+  "total_units": 650,
+  "unit_types": [
+    {
+      "type": "2 BHK Executive",
+      "carpet_area": "1,280 sq.ft.",
+      "starting_price": "$185,000",
+      "price_in_inr": "₹1.45 Cr",
+      "balconies": 2,
+      "bathrooms": 2,
+      "key_feature": "East-facing, Smart Home Automation enabled, Pool view"
+    },
+    {
+      "type": "3 BHK Premium",
+      "carpet_area": "1,850 sq.ft.",
+      "starting_price": "$265,000",
+      "price_in_inr": "₹2.10 Cr",
+      "balconies": 3,
+      "bathrooms": 3,
+      "key_feature": "Private foyer, Servant room, Dual car parking"
+    },
+    {
+      "type": "4 BHK Royal Penthouse",
+      "carpet_area": "2,950 sq.ft.",
+      "starting_price": "$420,000",
+      "price_in_inr": "₹3.35 Cr",
+      "balconies": 4,
+      "bathrooms": 5,
+      "key_feature": "Private plunge pool, 270-degree skyline views, Sky Lounge access"
+    }
+  ],
+  "amenities": [
+    "25,000 sq.ft. Central Clubhouse ('The Apex')",
+    "Temperature-controlled Olympic-size Infinity Pool",
+    "Co-working Lounge with High-speed Fiber Internet & Private Pods",
+    "100% Electric Vehicle (EV) Charging Bays per parking spot",
+    "3-Tier Biometric & Facial Recognition Security System",
+    "Floodlit Tennis Courts & Indoor Squash Court",
+    "Zen Meditation Park & Organic Roof Garden",
+    "24/7 Multi-Specialty Clinic & Pharmacy on premise"
+  ],
+  "location_advantages": [
+    "2 mins walk to Metro Station (Purple Line extension)",
+    "5 mins drive to Major IT Tech Parks (Embassy Tech Village, Prestige Tech Park)",
+    "10 mins to Columbia Asia Multi-specialty Hospital",
+    "15 mins to Greenwood High International School",
+    "35 mins direct expressway drive to Kempegowda International Airport"
+  ],
+  "payment_schemes": [
+    "Flexi-Payment Plan: 10% Booking Amount, 40% During Construction, 50% On Possession",
+    "Pre-EMI Subvention Scheme: 0% Interest until possession (Dec 2026)",
+    "Preferred Banking Partners: HDFC Bank, ICICI Bank, SBI (Instant pre-approved loans at 8.35% p.a.)"
+  ],
+  "faqs": [
+    {
+      "question": "Is the property RERA approved?",
+      "answer": "Yes, Greenfield Heights is fully RERA approved under Karnataka RERA registration PRM/KA/RERA/1251/310/PR/240921/006899."
+    },
+    {
+      "question": "What is the maintenance fee?",
+      "answer": "Estimated maintenance fee is ₹3.50 ($0.045) per sq.ft. per month, managed by Colliers International."
+    },
+    {
+      "question": "Are site visits available on weekends?",
+      "answer": "Yes! Guided site visits with chauffeur pickup are available 7 days a week from 9:30 AM to 6:30 PM. You can schedule a visit through our AI Voice Agent."
+    },
+    {
+      "question": "Can I request customized floor modifications?",
+      "answer": "Custom interior layout adjustments can be requested prior to slab casting for 3 BHK and 4 BHK penthouse buyers."
+    }
+  ]
+}
